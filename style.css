@@ -44,6 +44,11 @@ height: 13px;
 left: 778px;
 top: 38px;
 }
+
+.keskmine {
+  width: 1000px;
+}
+
 #FEATURED {
   font-family: Acumin Pro;
   font-size: 12px;
@@ -69,11 +74,12 @@ letter-spacing: 0.09em;
 
 color: #000000;
 }
+
 h2 {
   height: 59px;
-  width: 312px;
+  width: 400px;
   left: 558px;
-  top: 254px;
+  top: 230px;
   border-radius: nullpx;
 
 
