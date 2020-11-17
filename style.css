@@ -1,44 +1,50 @@
 * {
   box-sizing: border-box;
 }
-:root {
-  /* tekstiosa nimes vabalt valitud */
-  --variable: 50vw;
+body {
+  background-color: #FCF9ED;
 }
 header {
-  #logo{
-    margin: 0;
-        padding: 5px;
-        width: 120px;
-        vertical-align: middle;
-  position: absolute;
-left: 10.9%;
-right: 81.83%;
-top: 3.9%;
-bottom: 91.24%;
+  position: sticky;
+  top: 0;
 }
+.menuu a {
+  font-family: Acumin Pro;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0.09em;
+text-align: left;
+
+position: absolute;
+width: 60px;
+height: 13px;
+left: 590px;
+top: 38px;
+
+
+color: #000000;
 }
-section {
-  position: relative;
-}
-  span {
+/* :root { */
+  /* tekstiosa nimes vabalt valitud */
+  /* --variable: 50vw; */
+/* } */
+
+  /* span {
     background-color: white;
     /* display: block; (surub teised asjad eemale)*/
-    width: var(--variable)
+    /* width: var(--variable)
     height: 10vw;
-  }
-
-body {
-  #voodipilt {
+  } */
 
 
-  }
 /* background-color: #fcdef4; */
 /* margin: 0;
 padding: 0;
 background-color: black; */
 
-}
+
 /* see järgnev näitab klassi ja seob sellega mingit stiili: */
 /* .heading1 {
 /* font-size: 30px; */
@@ -143,6 +149,4 @@ font-size: 15px;
 line-height: 18px;
 text-align: center;
 color: #FFFFFF;
-
-
 } */
