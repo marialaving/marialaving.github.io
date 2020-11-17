@@ -65,7 +65,28 @@ line-height: 14px;
 letter-spacing: 0.09em;
 
 color: #000000;
+}
+h2 {
+  height: 59px;
+  width: 312px;
+  left: 558px;
+  top: 254px;
+  border-radius: nullpx;
 
+
+  font-family: Acumin Pro;
+font-size: 49px;
+font-style: normal;
+font-weight: 400;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: left;
+
+position: absolute;
+width: 312px;
+height: 59px;
+left: 558px;
+top: 254px;
 }
 /* :root { */
   /* tekstiosa nimes vabalt valitud */
