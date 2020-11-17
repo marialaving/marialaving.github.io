@@ -13,7 +13,7 @@ section {
   position: relative;
 }
   span {
-    background-color: black;
+    background-color: #ECEDEA;
     /* display: block; (surub teised asjad eemale)*/
     width: var(--variable)
     height: 10vw;
