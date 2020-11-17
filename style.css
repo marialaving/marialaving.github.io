@@ -86,8 +86,25 @@ letter-spacing: 0em;
 text-align: center;
 
 position: absolute;
-
 }
+h3 {
+  position: absolute;
+width: 654px;
+height: 150px;
+left: 385px;
+top: 792px;
+
+font-family: Cormorant Garamond;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 64px;
+/* or 100% */
+
+text-align: center;
+letter-spacing: -0.05em;
+}
+
 #pilt {
   height: 436px;
 width: 655px;
