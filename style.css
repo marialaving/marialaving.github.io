@@ -6,8 +6,13 @@
   --variable: 50vw;
 }
 header {
-  position: sticky;
-  top: 0;
+  #logo{
+  position: absolute;
+left: 10.9%;
+right: 81.83%;
+top: 3.9%;
+bottom: 91.24%;
+}
 }
 section {
   position: relative;
@@ -20,6 +25,10 @@ section {
   }
 
 body {
+  #voodipilt {
+
+
+  }
 /* background-color: #fcdef4; */
 /* margin: 0;
 padding: 0;
