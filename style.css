@@ -17,14 +17,28 @@ line-height: 13px;
 letter-spacing: 0.09em;
 text-align: left;
 
-position: absolute;
+color: #000000;
+}
+#projects {
+  position: absolute;
 width: 60px;
 height: 13px;
 left: 590px;
 top: 38px;
-
-
-color: #000000;
+}
+#about {
+  position: absolute;
+width: 41px;
+height: 13px;
+left: 694px;
+top: 38px;
+}
+#contact {
+  position: absolute;
+width: 57px;
+height: 13px;
+left: 778px;
+top: 38px;
 }
 /* :root { */
   /* tekstiosa nimes vabalt valitud */
