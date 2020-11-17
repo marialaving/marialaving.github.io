@@ -7,11 +7,17 @@
 }
 header {
   #logo{
+    height: 36.07220458984375px;
+  width: 104.69781494140625px;
+  left: 157px;
+  top: 29px;
+  border-radius: 0px;
   position: absolute;
 left: 10.9%;
 right: 81.83%;
 top: 3.9%;
 bottom: 91.24%;
+
 }
 }
 section {
