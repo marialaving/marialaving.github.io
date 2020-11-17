@@ -133,6 +133,15 @@ font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.09em;
 }
+#kaabu {
+  position: absolute;
+width: 371px;
+height: 247.46px;
+left: 57px;
+top: 1218px;
+}
+
+
 /* :root { */
   /* tekstiosa nimes vabalt valitud */
   /* --variable: 50vw; */
