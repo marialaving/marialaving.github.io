@@ -80,11 +80,20 @@ h2 {
   font-family: Acumin Pro;
 font-size: 49px;
 font-style: normal;
-font-weight: 400;
+font-weight: 200;
 line-height: 59px;
 letter-spacing: 0em;
 text-align: center;
 
+position: absolute;
+
+}
+#pilt {
+  height: 436px;
+width: 655px;
+left: 385px;
+top: 340px;
+border-radius: 0px;
 position: absolute;
 
 }
