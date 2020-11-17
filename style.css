@@ -83,7 +83,7 @@ h2 {
   border-radius: nullpx;
 
 
-  font-family: Acumin Pro;
+  font-family: Acumin Pro, sans-serif;
 font-size: 49px;
 font-style: normal;
 font-weight: 200;
@@ -118,7 +118,20 @@ left: 385px;
 top: 340px;
 border-radius: 0px;
 position: absolute;
+}
+.tekstiosa {
+  position: absolute;
+width: 104px;
+height: 14px;
+left: 665px;
+top: 1090px;
 
+font-family: Acumin Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.09em;
 }
 /* :root { */
   /* tekstiosa nimes vabalt valitud */
