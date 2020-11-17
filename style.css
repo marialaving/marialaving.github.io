@@ -140,7 +140,28 @@ height: 247.46px;
 left: 57px;
 top: 1218px;
 }
+#kivi {
+  height: 247.4600067138672px;
+width: 371px;
+left: 534px;
+top: 1218px;
+border-radius: 0px;
 
+position: absolute;
+width: 371px;
+height: 247.46px;
+left: 534px;
+top: 1218px;
+}
+#kott {
+
+border-radius: 0px;
+position: absolute;
+width: 371px;
+height: 247.46px;
+left: 1011px;
+top: 1218px;
+}
 /* :root { */
   /* tekstiosa nimes vabalt valitud */
   /* --variable: 50vw; */
