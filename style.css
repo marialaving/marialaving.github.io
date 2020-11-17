@@ -13,7 +13,7 @@ section {
   position: relative;
 }
   span {
-    background-color: #ECEDEA;
+    background-color: white;
     /* display: block; (surub teised asjad eemale)*/
     width: var(--variable)
     height: 10vw;
@@ -21,19 +21,19 @@ section {
 
 body {
 /* background-color: #fcdef4; */
-margin: 0;
+/* margin: 0;
 padding: 0;
-background-color: black;
+background-color: black; */
 
 }
 /* see järgnev näitab klassi ja seob sellega mingit stiili: */
-.heading1 {
+/* .heading1 {
 /* font-size: 30px; */
-font-size: 3em;
-position: relative;
+/* font-size: 3em; */
+/* position: relative; */
 /* left: 50px; */
-margin: 50px;
-}
+/* margin: 50px; */
+/* } */
 /* ul {
   list-style-type: none;
   padding: 0;
@@ -43,7 +43,7 @@ margin: 50px;
 /* #heading2 {
 font-size: 1rem
 } */
-p {
+/* p {
   color: white;
   position: relative;
 
@@ -53,18 +53,18 @@ h1 {
 }
 h2 {
   color: white;
-}
-.pilt {
+} */
+/* .pilt {
   /* width: 100%; */
   /* margin: 10vw; */
   /* top, right, bottom, left */
-  background-color: white;
+  /* background-color: white;
   border: 3px solid black;
   margin: 10vw 10vw 10vw 10vw;
   padding: 5vw;
   width: 80vw;
   height: auto;
-}
+} */
 
 /* #pilt {
 position: fixed;
@@ -74,7 +74,7 @@ margin: 50px;
 width: 40vw;
 } */
 
-#pilt2 {
+/* #pilt2 {
 position: sticky;
 top: 10;
 margin: 100;
@@ -82,16 +82,16 @@ width: 60vw;
 }
 .hello {
   /* display: none; */
-  opacity: 1;
-}
-.fixed {
+  /* opacity: 1;
+} */
+/* .fixed {
   position: fixed;
 }
 .bottom-left {
   bottom: 50px;
   left: 50px;
-}
-.tooltip {
+} */
+/* .tooltip {
   background: rgba(0,0,0,0.5);
 }
 .p6 {
@@ -100,7 +100,7 @@ width: 60vw;
   background-size: 50px;
   background-repeat: no-repeat;
 }
-.button {
+.button { */
   /* position: static;
   width: 59px;
   height: 18px;
@@ -108,7 +108,7 @@ width: 60vw;
   top: 11px;
 
   background: #54A547; */
-  display: flex;
+  /* display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 11px 0px 0px 53px;
@@ -119,9 +119,9 @@ width: 165px;
 height: 40px;
 
 background: #5734E0;
-}
+} */
 
-.button a{
+/* .button a{
   font-family: Roboto, sans-serif;
   text-decoration: none;
 font-style: normal;
@@ -132,4 +132,4 @@ text-align: center;
 color: #FFFFFF;
 
 
-}
+} */
