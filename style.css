@@ -259,3 +259,17 @@ color: black;
 #email a:hover{
   color: #B5B3AA;
 }
+#omm {
+  position: absolute;
+width: 116px;
+height: 16px;
+left: 895px;
+top: 1751px;
+
+font-family: Acumin Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 13.5px;
+line-height: 16px;
+
+}
