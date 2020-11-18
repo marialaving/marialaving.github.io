@@ -215,3 +215,44 @@ top: 1484px;
   line-height: 13px;
   letter-spacing: 0.095em;
 }
+#Contact2 {
+  position: absolute;
+width: 57px;
+height: 13px;
+left: 317px;
+top: 1755px;
+
+font-family: Acumin Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0.095em;
+}
+#LA {
+  position: absolute;
+width: 137px;
+height: 16px;
+left: 58px;
+top: 1792px;
+
+font-family: Acumin Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 13.5px;
+line-height: 16px;
+}
+#email a{
+  position: absolute;
+width: 144px;
+height: 16px;
+left: 317px;
+top: 1805px;
+
+font-family: Acumin Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 13.5px;
+line-height: 16px;
+color: black;
+}
