@@ -1,6 +1,6 @@
 @keyframes animation {
   0%   {left:0px; top:0px;}
-   50%  {left:200px; top:200px;}
+   50%  {left:20px; top:20px;}
    100% {left:0px; top:0px;}
 }
 
@@ -26,6 +26,7 @@ letter-spacing: 0.09em;
 text-align: left;
 text-decoration: none;
 color: #000000;
+animation-duration: 2s;
 transition: all 2s;
 }
 .menuu a:hover {
