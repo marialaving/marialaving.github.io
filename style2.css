@@ -1,8 +1,8 @@
-/* @keyframes animation {
+@keyframes animation {
   0% {color: blue;}
   50% {color: white;}
   100% {color: blue;}
-} */
+}
 
 * {
   box-sizing: border-box;
@@ -29,12 +29,12 @@ letter-spacing: 0.09em;
 text-align: left;
 text-decoration: none;
 color: #000000;
-/* transition: all 2s; */
+transition: all 2s;
 }
 
 .menuu a:hover {
   color: #63625F;
-  /* animation: animation 2s; */
+  animation: animation 2s;
 }
 
 #projects {
