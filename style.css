@@ -256,3 +256,6 @@ font-size: 13.5px;
 line-height: 16px;
 color: black;
 }
+#email a:hover{
+  color: #B5B3AA;
+}
