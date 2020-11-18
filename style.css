@@ -201,3 +201,17 @@ height: 17px;
 left: 1011px;
 top: 1484px;
 }
+#CR {
+  position: absolute;
+  width: 180px;
+  height: 13px;
+  left: 58px;
+  top: 1755px;
+
+  font-family: Acumin Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.095em;
+}
