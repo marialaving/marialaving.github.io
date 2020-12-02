@@ -148,8 +148,11 @@ width: 700px;
 height: 467.11px;
 left: 373px;
 top: 351px;
+opacity: 0.5;
 }
-
+#prillid:hover {
+opacity: 1;
+}
 .tekstiosa {
   position: absolute;
 width: 104px;
