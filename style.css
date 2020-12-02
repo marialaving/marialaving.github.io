@@ -52,17 +52,25 @@ height: 13px;
 left: 778px;
 top: 38px;
 }
+.square {
+  position: absolute;
+  width: 866px;
+height: 642px;
+left: 290px;
+top: 261px;
 
+background: #C4C4C4;
+}
 .keskmine {
   width: 1000px;
 }
 
 #latest {
   position: absolute;
-width: 91px;
-height: 14px;
-left: 675px;
-top: 200px;
+  width: 100px;
+  height: 15px;
+  left: 679px;
+  top: 286px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -70,26 +78,23 @@ font-weight: normal;
 font-size: 12px;
 line-height: 15px;
 text-decoration: none;
+text-align: center;
 
 color: #243D2B;
 }
 
 h2 {
-  height: 59px;
-  width: 400px;
-  left: 525px;
-  top: 230px;
-  border-radius: nullpx;
+  position: absolute;
+width: 68px;
+height: 15px;
+left: 373px;
+top: 830px;
 
-
-  font-family: Montserrat;
+font-family: Montserrat;
 font-style: normal;
-font-weight: normal;
+font-weight: 600;
 font-size: 12px;
 line-height: 15px;
-text-align: center;
-
-position: absolute;
 }
 
 h3 {
@@ -110,12 +115,13 @@ text-align: center;
 letter-spacing: -0.05em;
 }
 
+
 #prillid {
   position: absolute;
 width: 700px;
 height: 467.11px;
 left: 373px;
-top: 414px;
+top: 351px;
 }
 
 .tekstiosa {
