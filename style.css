@@ -1,12 +1,12 @@
 @keyframes animation {
-  0%   
+  0%
 }
 
 * {
   box-sizing: border-box;
 }
 body {
-  background-color: #FCF9ED;
+  background-color: #D6DFD2;
 width: 100%;
 border-radius: 0px;
 }
@@ -23,7 +23,7 @@ line-height: 13px;
 letter-spacing: 0.09em;
 text-align: left;
 text-decoration: none;
-color: #000000;
+color: #243D2B;
 animation-duration: 1s;
 /* transition: all 2s; */
 }
@@ -80,7 +80,7 @@ font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.09em;
 
-color: #000000;
+color: #243D2B;
 }
 
 h2 {
@@ -279,4 +279,8 @@ font-weight: normal;
 font-size: 13.5px;
 line-height: 16px;
 
+}
+.container {
+  display: flex;
+  justify-content: space-between;
 }
