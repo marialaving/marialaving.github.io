@@ -37,6 +37,9 @@ letter-spacing: 0.3em;
 
 color: #C4C4C4;
 }
+.logo:hover {
+  filter: invert(80%);
+}
 header {
   position: sticky;
   top: 0;
