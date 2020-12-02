@@ -10,6 +10,33 @@ body {
 width: 100%;
 border-radius: 0px;
 }
+.recc {
+  position: absolute;
+width: 100px;
+height: 39px;
+left: 670px;
+top: 23px;
+
+background: #000000;
+}
+.Laving {
+  position: absolute;
+  width: 78px;
+  height: 26px;
+  left: 681px;
+  top: 29px;
+
+  font-family: "Allerta Stencil"
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #C4C4C4;
+}
 header {
   position: sticky;
   top: 0;
@@ -32,24 +59,24 @@ animation-duration: 1s;
 }
 #projects {
   position: absolute;
-width: 60px;
-height: 13px;
-left: 590px;
-top: 38px;
+  width: 65px;
+  height: 15px;
+  left: 567px;
+  top: 108px;
 }
 #about {
   position: absolute;
-width: 41px;
-height: 13px;
-left: 694px;
-top: 38px;
+  width: 45px;
+  height: 15px;
+  left: 699px;
+  top: 108px;
 }
 #contact {
   position: absolute;
-width: 57px;
-height: 13px;
-left: 778px;
-top: 38px;
+  width: 60px;
+  height: 15px;
+  left: 813px;
+  top: 108px;
 }
 .square {
   position: absolute;
