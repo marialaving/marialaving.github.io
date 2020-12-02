@@ -15,12 +15,11 @@ header {
   top: 0;
 }
 .menuu a {
-  font-family: Acumin Pro;
-font-size: 11px;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
-font-weight: 400;
-line-height: 13px;
-letter-spacing: 0.09em;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
 text-align: left;
 text-decoration: none;
 color: #243D2B;
@@ -72,7 +71,7 @@ background: #C4C4C4;
   left: 679px;
   top: 286px;
 
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -90,7 +89,7 @@ height: 15px;
 left: 373px;
 top: 830px;
 
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
