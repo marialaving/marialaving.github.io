@@ -1,10 +1,7 @@
-@keyframes animation {
-  0% {}
-  25% {background: #9A300F;}
-  50% {background: #CA5935;}
-  75% {background: #E1A4A4;}
-  100% {background: black;}
-}
+@keyframes spin {
+        0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
 
 .flex-item {
   flex-basis: auto;
@@ -30,7 +27,7 @@ header {
   width: 200vh;
   max-width: 100%;
 padding: 0px 0px 80px 0px;
-z-index: -10;
+animation-duration: 3s;
 }
 
 a {
@@ -43,6 +40,10 @@ a {
   justify-content: center;
   position: relative;
   margin: 20px 0px 30px 0px;
+}
+
+.logo:hover {
+  animation: spin 3s linear infinite;
 }
 
 .col-1 {
@@ -72,7 +73,6 @@ a {
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: center;
-  /* display: inline-block; */
  padding: 0.5em;
  width: 100%;
  position: relative;
@@ -83,7 +83,7 @@ a {
   width: 100%;
 }
 
-.col-2 a{
+.menuu a{
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -92,24 +92,24 @@ a {
   text-align: center;
   text-decoration: none;
   color: black;
-  animation-duration: 1s;
+  /* animation-duration: 1s; */
 }
 
-.col-2 a:hover {
+.menuu a:hover {
   color: #63625F;
 }
 
 #projects {
   width: 80px;
-  height: 15px;
+
 }
 #about {
   width: 80px;
-  height: 15px;
+
 }
 #contact {
   width: 80px;
-  height: 15px;
+
 }
 
 
