@@ -8,48 +8,48 @@
   <title>Youtube</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
-    <div class="logo">
-      <div class="recc"></div>
-    <div class="Laving">
-        <p>Laving</p>
+    <div class="logo flex-item col-1">
+        <a href="#">Laving</a>
     </div>
-    </div>
-    <div class="menuu">
-      <a id="projects" href="#projects">PROJECTS</a>
-      <a id="about" href="#about">ABOUT</a>
-      <a id="contact" href="#contact">CONTACT</a>
+    <div class="menuu flex-item col-2">
+        <a id="projects" href="#projects">PROJECTS</a>
+        <a id="about" href="#about">ABOUT</a>
+        <a id="contact" href="#contact">CONTACT</a>
     </div>
   </header>
+
   <main>
-    <div class="keskmine">
-      <div class="square">
+
+      <div id="square" class="flex-item col-4 square" >
       </div>
-      <div class="tekst">
-        <a id="latest" href="#">LATEST WORK</a>
-        <h2>EDITORIAL</h2>
-      </div>
-      <img id="prillid"src="roosadprillidvaike2_2.jpg" alt="roosad">
+        <div class="keskmine flex-item col-4 latest">
+            <a href="#">LATEST WORK</a>
+        </div>
+        <div class="keskmine flex-item col-4 prillid">
+          <img id="prillid" src="roosadprillidvaike2_2.jpg" alt="roosad">
+        </div>
+
+
+
+<section class="alumine">
+  <div class="tekstiosa">
+    <p>ALL PROJECTS</p>
+  </div>
+  <div class="pildiosa">
+    <div class="flex-item col-3"><img id="karl"src="IMG_1530.jpg" alt="kaabu">
+      <a class="pealkirjad" href="#">Creative</a>
     </div>
-    <div class="alumine">
-      <div class="tekstiosa">
-        <p>ALL PROJECTS</p>
-      </div>
-      <div class="pildiosa">
-        <img id="karl"src="IMG_1530.jpg" alt="kaabu">
-        <img id="king"src="109A7912-1.jpg" alt="kivi">
-        <img id="doc"src="IMG_13534.jpg" alt="kott">
-      </div>
-      <div class="pealkirjad">
-        <a id="GW"href="#">Creative</a>
-        <a id="CC"href="#">Product</a>
-        <a id="JV"href="#">Documentation</a>
-
-      </div>
+    <div class="flex-item col-3"><img id="king"src="109A7912-1.jpg" alt="kivi">
+      <a class="pealkirjad" href="#">Product</a>
     </div>
-
-
+    <div class="flex-item col-3"><img id="doc"src="IMG_13534.jpg" alt="kott">
+      <a class="pealkirjad" href="#">Documentation</a>
+    </div>
+  </div>
+</section>
   </main>
 
   <footer>
