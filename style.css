@@ -30,7 +30,7 @@ header {
   width: 200vh;
   max-width: 100%;
 padding: 0px 0px 80px 0px;
-z-index: -10 5;
+z-index: -10;
 }
 
 a {
@@ -113,76 +113,41 @@ a {
 }
 
 
-/* KESKMINE OSA */
-
-/* .keskmine1 {
-  display: flex;
-  justify-content: center;
- width: 100%;
- position: relative;
-}
-
-.col-3 {
-  flex-basis: auto;
-  width: 100%;
-}
-
-#square {
-  z-index: -10;
-  width: 800px;
-  height: 642px;
-  position: relative;
-  background: #C4C4C4;
-   align-self: center;
-} */
-
 .keskmine1 {
-  border: 30px #C4C4C4;
-}
-
-.keskmine2 {
   display: flex;
-  justify-content: center;
- width: 100%;
- position: relative;
-
+  justify-content: space-around;
 }
 
-.col-4 {
-  width: 150px;
-  flex-basis: auto;
-  z-index: 5;
+.col-5 {
+  width: 100%;
+  padding: 20px 20px 50px 20px;
+  background: #C4C4C4;
+  max-width: 800px;
 }
 
-.col-4 a{
-  width: 300px;
+.col-5 a{
   height: 15px;
-
-font-size: 20px;
+  display: block;
+font-size: 17px;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-style: normal;
-font-weight: 600;
+font-weight: 200;
+letter-spacing: 0.1em;
 
 line-height: 15px;
 text-decoration: none;
-color: #243D2B;
-}
-
-.keskmine3 {
-  display: flex;
-  justify-content: center;
- width: 100%;
- position: relative;
+color: black;
 }
 
 #prillid {
   /* position: absolute; */
-width: 700px;
-height: 467.11px;
+  display: block;
+width: 100%;
+max-width: 700px;
+margin: 40px auto 0 auto;
 opacity: 0.5;
 transition: opacity 1s ease-in;
-margin: 40px 0px 10px 0px;
 z-index: 5;
 }
 
@@ -247,88 +212,39 @@ text-decoration: none;
 }
 
 
-#CR {
-  position: absolute;
-  width: 180px;
-  height: 13px;
-  left: 58px;
-  top: 1755px;
+.alumineosa1 {
+  display: flex;
+  justify-content: center;
+ width: 100%;
+ padding: 50px;
+ position: relative;
+}
 
+
+.col-7 {
   font-family: Acumin Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
-  line-height: 13px;
+  line-height: 16px;
   letter-spacing: 0.095em;
+  text-align: center;
+  color: black;
 }
-#Contact2 {
-  position: absolute;
-width: 57px;
-height: 13px;
-left: 317px;
-top: 1755px;
 
-font-family: Acumin Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 13px;
-letter-spacing: 0.095em;
-}
-#LA {
-  position: absolute;
-width: 137px;
-height: 16px;
-left: 58px;
-top: 1792px;
-
-font-family: Acumin Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 13.5px;
-line-height: 16px;
-}
-#email a{
-  position: absolute;
-width: 144px;
-height: 16px;
-left: 317px;
-top: 1805px;
-
-font-family: Acumin Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 13.5px;
-line-height: 16px;
-color: black;
-}
-#email a:hover{
-  color: #B5B3AA;
-}
-#omm {
-  position: absolute;
-width: 116px;
-height: 16px;
-left: 895px;
-top: 1751px;
-
-font-family: Acumin Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 13.5px;
-line-height: 16px;
+#CR {
+  width: 150px;
+  height: 16px;
 
 }
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
-}
-@media only screen and (min-width: 1920px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
+  .col-5 {
+    padding: 10px;
   }
 }
