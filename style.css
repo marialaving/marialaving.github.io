@@ -132,7 +132,7 @@ font-size: 17px;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-style: normal;
-font-weight: 200;
+font-weight: 400;
 letter-spacing: 0.1em;
 
 line-height: 15px;
@@ -162,14 +162,17 @@ z-index: 5;
   position: relative;
 justify-content: center;
 /* width: 100%; */
-height: 14px;
+height: 20px;
 text-align: center;
 
-font-family: Acumin Pro;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
-font-weight: normal;
+font-weight: 500;
 font-size: 12px;
-line-height: 14px;
+line-height: 15px;
+text-align: center;
+text-decoration: none;
+color: black;
 letter-spacing: 0.09em;
 margin-top: 130px;
 }
@@ -199,15 +202,14 @@ section {
 }
 
 .pealkirjad {
-  font-family: Acumin Pro;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: -0.01em;
-text-align: center;
-color: #000000;
-text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .alumineosa1 {
